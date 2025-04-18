@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
-import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   const musicList = [
