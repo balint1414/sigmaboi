@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   const musicList = [
@@ -22,7 +23,7 @@ function App() {
     const top = Math.floor(Math.random() * 70 + 10) + "%";
     const left = Math.floor(Math.random() * 70 + 10) + "%";
 
-    const id = Date.now() + Math.random(); // egyedi azonosító minden effekthez
+    const id = Date.now() + Math.random();
 
     const newEffect = {
       id,
@@ -62,9 +63,10 @@ function App() {
       <footer className="absolute bottom-0 left-0 w-full text-white text-center p-4 font-asap">
         <h1>Ez az oldal egy nagy faszság egyébként</h1>
         <button className="text-4xl ">
-          <a href="https://github.com/balint1414">
+          <a href="https://github.com/balint1414/sigmaboi">
           <FontAwesomeIcon icon={faGithub} />
           </a>
+
         </button>
       </footer>
       </div>
